@@ -1,0 +1,38 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://kartinkin.net/uploads/posts/2021-04/1617600632_49-p-krasivii-fon-kosmos-51.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.loginWrapper {
+    border: 5px solid var(--my-pink);
+    background: black;
+    text-align: center;
+    padding: 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputsForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .loginWrapper {
+        border: none;
+        background: none;
+    }
+
+    .bg {
+        background: url(https://source.unsplash.com/1000x1500/?space) no-repeat;
+    }
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Georgia';
+    color: var(--font-main);
+
+    --font-main: white;
+    --font-secondary: white;
+
+    --my-pink: white;
+    --hover: #black
+    ;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input::placeholder {
+    color: var(--font-secondary);
+}

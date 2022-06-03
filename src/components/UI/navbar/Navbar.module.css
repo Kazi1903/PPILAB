@@ -1,0 +1,11 @@
+.navHeader {
+    background-color: var(--hover);
+    display: flex;
+    align-items: baseline;
+    padding: 0.5rem;
+    gap: 1rem;
+    border-collapse: collapse;
+ 
+    border-bottom: 1px solid white;
+}
+

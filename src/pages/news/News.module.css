@@ -1,0 +1,17 @@
+.newsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://funart.pro/uploads/posts/2021-04/1618450825_44-funart_pro-p-oboi-fon-temnii-kosmos-47.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.newsWrapper > hr {
+    border: none;
+    border-top: 1px solid white;
+    width: 60%;
+    margin: 0.5rem 0;
+}
